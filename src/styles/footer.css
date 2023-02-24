@@ -1,0 +1,61 @@
+.footer {
+    height: 10vh;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.lectureEnCours{
+    width: 40%;
+    padding: 5px;
+    display: flex;
+}
+.titreEnCours{
+    margin-bottom: 10%;
+    margin-left: 2%;
+    display: flex;
+    flex-direction: column;
+}
+
+.conver{
+    width: 12%;
+    height: 100%;
+}
+.player{
+    width: 40%;
+    margin-top: 2%;
+}
+
+.like{
+    margin-top: 4%;
+    margin-left: 10%
+}
+
+.random{
+    margin-right: 1.5%; 
+}
+.skipBack{
+    margin-right: 3%;
+}
+.skipForward{
+    margin-left: 3%;
+}
+
+.random{
+    margin-left: 1.5%; 
+}
+
+.like, .random, .skipBack, .skipForward, .repeat{
+    color: rgb(180, 176, 176);
+}
+
+.like:hover, .random:hover, .skipBack:hover, .skipForward:hover, .repeat:hover{
+    color: white;
+}
+
+.volume{
+    width: 20%;
+    margin-top: 2%;
+}

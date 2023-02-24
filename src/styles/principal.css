@@ -1,0 +1,40 @@
+ul,
+li {
+    list-style: none;
+}
+
+.principal{
+    width: 100%;
+    overflow: hidden;
+}
+
+.artistsList,
+.albumsList,
+.genresList {
+  max-height: 90vh;
+  color: rgb(230, 230, 230);
+  overflow: scroll;
+}
+
+.artistIndex,
+.albumIndex,
+.genreIndex {
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.637);
+    color: rgb(230, 230, 230);
+    border-bottom: 1px solid rgb(75, 75, 75);
+}
+
+.artists_description,
+.albums_description {
+    color: rgb(110, 110, 110);
+    font-size: 0.8rem;
+}
+
+.artists_photo,
+.albums_photo {
+    height: 10%;
+    width: 10%;
+    object-fit: cover;
+    border-radius: 5px;
+}

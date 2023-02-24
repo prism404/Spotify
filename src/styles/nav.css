@@ -1,0 +1,59 @@
+h5 {
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.leftNav {
+  width: 15%;
+  padding: 2%;
+  color: white;
+  text-align: left;
+  background-color: black;
+}
+
+.coolLify {
+  width: 80%;
+}
+
+.leftNav_bottomIcons {
+  margin-top: 0.4rem;
+  margin-bottom: 15%;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  height: 40px;
+}
+
+.icons .p {
+  margin-right: 5%;
+  cursor: pointer;
+}
+
+.genres ul {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: rgb(34, 34, 34);
+}
+
+.genres ul li {
+  font-size: 16px;
+  list-style-type: none;
+}
+
+.genres li:hover {
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 5px;
+  text-align: center;
+  background-color: rgb(34, 83, 243);
+}
+
+.search{
+  width: 45%;
+  height: 5vh;
+  margin-top: 1%;
+  padding-left: 2%;
+  border-radius: 20px;
+}

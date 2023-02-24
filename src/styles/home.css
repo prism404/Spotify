@@ -1,0 +1,14 @@
+.home {
+    height: 90vh;
+    color: white;
+    text-align: left;
+    display: flex;
+    background-color: #282c34;
+}
+
+.navLink {
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 18px;
+    color: white;
+}
